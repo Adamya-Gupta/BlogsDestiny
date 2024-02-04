@@ -1,0 +1,16 @@
+body{
+    background: #cfd8dc;
+}
+
+.container-custom{
+    width: 90%!important;
+    margin:auto
+}
+
+.item{
+    margin-left:10px;
+}
+
+.bg-primary{
+    background: #ff1744!important;
+}
