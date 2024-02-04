@@ -1,5 +1,5 @@
 
-# Blogs Destiny
+# BlogsDestiny
 
 ### Overeview
 This is a Blogging website project created by using Python, Django, HTML, CSS, JS, JQuery, MaterilizeCSS, Owlcarousel.
