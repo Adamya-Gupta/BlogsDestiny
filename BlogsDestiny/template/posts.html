@@ -2,7 +2,7 @@
 {% load static %}
 {% block title %}
 
-POST
+{{ post.title }}/BlogsDestiny
 
 {% endblock title %}
 
@@ -14,7 +14,9 @@ POST
             
             <h1>{{ post.title }}</h1>
             <blockquote>
+               
               <h5>{{post.cat.title}} </h5>
+            
             </blockquote>
 
             <img src="/media/{{post.image}}" class="responsive-img" alt="">
