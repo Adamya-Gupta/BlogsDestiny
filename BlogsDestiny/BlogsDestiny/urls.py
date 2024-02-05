@@ -24,3 +24,7 @@ urlpatterns = [
                 path('',include('blogapp.urls')),
                 
     ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+admin.site.index_title = "BlogsDestiny"
+admin.site.site_header = "BlogsDestiny Admin"
+admin.site.site_title = "BlogsDestiny Admin"
